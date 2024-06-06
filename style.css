@@ -157,8 +157,7 @@ main {
     border-radius: 12px;
     box-shadow: var(--shadow);
     color: var(--primary-text-color)
-    color: (red green blue) (red green blue) (red green blue)  (srgb red green blue) var(--primary-text-color);
-    cursor: pointer;
+    color(srgb red green blue) pointer;
 }
 
 .alternativas label:hover {
@@ -239,7 +238,7 @@ main {
 }
 
 @media(min-width: 1100px) {
-    body {
+   body {
         background: var(--bg-desktop) var(--bg-color);
         background-size: cover;
         background-repeat: no-repeat;
